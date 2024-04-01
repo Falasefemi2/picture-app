@@ -17,12 +17,12 @@ const UploadButton = () => {
     return (
         <Button asChild>
             <CldUploadButton
-                onUpload={(result: uploadResult) => {
-                    //   setImageId(result.info.public_id)
-                    setTimeout(() => {
-                        router.refresh();
-                    }, 1000)
-                }}
+                // onUpload={(result: uploadResult) => {
+                //     //   setImageId(result.info.public_id)
+                //     setTimeout(() => {
+                //         router.refresh();
+                //     }, 1000)
+                // }}
 
                 uploadPreset="ghxtzimu">
                 <div className="flex gap-2 justify-center items-center">
