@@ -1,7 +1,9 @@
-import { CldImage } from "next-cloudinary";
+import CloudinaryImage from "./CloudinaryImage";
 import UploadButton from "./upload-button";
 import cloudinary from 'cloudinary'
-import CloudinaryImage from "./cloudinaryImage";
+
+
+
 
 
 type SearchResult = {
